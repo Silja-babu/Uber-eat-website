@@ -1,0 +1,306 @@
+*{
+    margin: 0;
+   
+}
+img .head{
+    width: 100%;
+}
+.navbar{
+    position: fixed;
+    margin-top: 0;
+    z-index: 10;
+}
+   
+.order{
+    padding: 25px;
+    font-size: 5cap;
+   
+
+}
+.insert{
+    position:absolute;
+    top: 40%;
+    z-index: 1;
+    padding: 20px;
+}
+
+.navbar li a{
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+    
+    
+}
+.navbar li{
+    list-style-type: none;
+}
+.navbar ul{
+    display: flex;
+   
+}
+.navbar .in {
+    color: black;
+    box-sizing: border-box;
+    border: 2px solid white;
+    border-radius: 10%;
+    padding: 10px;
+    background: white;
+}
+.navbar .up{
+    color: white;
+    box-sizing: border-box;
+    border:1px solid black;
+    border-radius: 10%;
+    background: black;
+}
+.navbar li a{
+    margin:20px;
+    
+}
+
+h2 span{
+    font-size: xx-large;
+}
+
+   
+.head{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+}
+.flex{
+    display:flex;
+    position:absolute;
+    top: 100%;
+    
+}
+.flex li {
+    width: 100%;
+    list-style-type: none;
+    margin-top: 3%;
+    
+    
+}
+
+.banner{
+    width: 90%;
+}
+h3{
+    font-size: xx-large;
+    margin-top: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.link{
+    color: black;
+    font-size: larger;
+    
+}
+.navdiv{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+}
+.uberlogo {
+    font-size: x-large;
+    margin: 20px;
+
+}
+.uberlogo a{
+    text-decoration: none;
+    color: black;
+}
+.uberlogo a span{
+    font-size: xx-large;
+}
+.navbar{
+    box-sizing: border-box;
+    border: 2px solid transparent;
+    
+
+
+}
+.link {
+    text-decoration: underline;
+}
+/*@keyframes scroll{
+    from{transform: translateY(0); border:2px solid transparent; background: white;}
+    to{transform: translateY(10px); border: 2px solid white;}
+}*/
+
+.input{
+    padding: 20px;
+    margin-left: 20px;
+    display: flex;
+
+}
+.input input{
+    margin:0.3em;
+    padding: 1em;
+    width: 27em;
+    font-weight: 600;
+}
+.search{
+    box-sizing: border-box;
+    
+    border-radius: 7%;
+    background: black;
+    font-size: larger;
+    
+    
+}
+.search a{
+    margin: 0.2em;
+    color: white;
+    text-decoration: none;
+}
+.text input{
+    width: 15em;
+    font-weight:1800;
+    color: black;
+}
+.or a{
+    color: black;
+   
+}
+.or{
+    margin-left: 2.9em;
+    font-weight: 800 ;
+
+}
+.cities img{
+    position: absolute;
+    top: 150%;
+    width: 70%;
+    margin-left: 10%;
+
+}
+.near img{
+    background: lightblue;
+    margin-left:2.5%;
+    margin-right: 3.5%;
+    width: 95%;
+    height: 40%;
+    
+}
+.store img{
+    position: absolute;
+    width: 2em;
+}
+.icon {
+    position: absolute;
+    width: 2em;
+}
+.social img{
+    width: 2em;
+   }
+.countries{
+    position: absolute;
+    top: 210%;
+}
+.near h2  ,.near a{
+    position: absolute;
+   }
+   
+    
+
+.near h2{
+    font-size: xx-large;
+    
+}
+.near a{
+    float: left;
+}
+
+.list ul{
+    display: inline-block;
+    list-style-type: none;
+    text-align: justify;
+    font-size: large;
+
+}
+.list li{
+   margin: 2.5em;
+   
+}
+footer{
+    position: absolute;
+    top: 280%;
+}
+.cities h2, .cities a, .cities li{
+    position: absolute;
+    
+}
+.final{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 1em;
+}
+.social li{
+    list-style-type: none;
+}
+
+.result li{
+    list-style-type:none ;
+    display: inline-block;
+    margin-left: 5em;
+    
+    
+}
+.result li a{
+    text-decoration: none;
+    color: black;
+    margin: 2em;
+    
+}
+.final li{
+    display: inline-block;
+}
+.final img{
+    margin:0.6em;
+    width: 0.9em;
+}
+footer p{
+    margin-left: 19em;
+    display: inline-block;
+}
+footer a{
+    text-decoration: none;
+    color: black;
+}
+footer a:hover{
+    text-decoration: underline black;
+}
+#near{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding-left: 30px;
+    
+   
+}
+#near div{
+    margin: 2%;
+    position: static;
+    font-size: 100%;
+    line-height: 1.2cm;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 360;
+    
+    
+    
+}
+#country{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    padding-left: 30px;
+}
+#country div{
+    font-size: 100%;
+    line-height: 1.2cm;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 360;
+}
+.nearest{
+    position: static;
+    margin-top: 100%;
+}
