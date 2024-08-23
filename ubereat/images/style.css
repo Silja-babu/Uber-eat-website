@@ -1,0 +1,423 @@
+@font-face{
+    font-family: UberMoveBold;
+    src: url(fond/UberMoveBold.otf);
+    
+}
+*{font-family: 'UberMoveBold';}
+.sign{
+    display: flex;
+    
+    
+    
+
+}
+.sign ul{
+    
+}
+.sign li a{
+    text-decoration: none;
+    letter-spacing: 0.4%;
+    text-align: center;
+    font-weight:bolder;
+    
+}
+.sign li{
+    list-style-type: none;
+    margin-top: -5%;
+
+   
+   
+}
+.ubereat{
+    display: flex;
+    justify-content: space-between;
+}
+.head{
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+.headimage img{
+    max-width: 100%;
+   
+    
+}
+.headimage{
+    position: relative;
+    margin-top: -1%;
+    margin-left: -1%;
+    margin-right: -0.5%;
+    
+}
+.Main{
+    position: absolute;
+    left: 1%;
+    top: 32%;
+    padding: 1%;
+    
+
+}
+.Main h1{
+    font-size: 3.25em;
+    line-height: 100%;
+    font-family: 'UberMoveBold';
+    font-weight: 700;
+    padding: 1%;
+}
+.linear{
+    display: flex;
+}
+
+.sign li .in{
+    box-sizing: border-box;
+    border: 2px solid rgb(255, 255, 255);
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.1);
+    font-family: 'UberMoveMedium';
+    color: rgb(48, 48, 48);
+    border-radius: 500px;
+    padding: 8px;
+    background: white;
+    font-size: 14px;
+    width: 10%;
+    line-height: 2px;
+
+}
+.sign li .up{
+    box-sizing: border-box;
+    border: 2px solid rgb(0, 0, 0);
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.1);
+    color: rgb(255, 255, 255);
+    font-family: 'UberMoveMedium';
+    border-radius: 20px;
+    width: 19%;
+    margin: 19px;  
+    padding: 10px;
+    background: rgb(0, 0, 0);
+    font-size: 14.2px;
+    font-weight: 500;
+    line-height: 1px;
+    
+
+   
+}
+.threeline svg{
+    margin-left: 5px;
+}
+.ubereat{padding: 1.5%;
+    margin-top: 0.2%;
+}
+.ubereat img{
+    width: 54%;
+    margin: 2%;
+    margin-left: 12%;
+}
+.linear{
+    line-height: 2px;
+    
+    
+    
+}
+.location{
+    padding:12px;
+    margin-top:-24px ;
+}
+.location input{
+    padding: 18px;
+    width: 499px;
+    box-sizing: border-box;
+    border: 2px solid transparent;
+    font-size: 17px;
+    
+}
+.loca::placeholder{
+    color: rgb(92, 89, 89);
+    padding: 7%;
+    letter-spacing: 0.5px;
+    font-size: 16px;
+    
+}
+.delivery input{
+    padding: 18px;
+    width: 100%;
+    box-sizing: border-box;
+    border: 2px solid transparent;
+    font-size: 17px;
+
+    
+    
+
+
+}
+.delivery{
+    margin-left:-5px;
+    margin-top: -13px;
+    
+}
+.deliver::placeholder{
+    text-align: center;
+    color: black;
+    font-weight: 10;
+    font-size: 16px;
+}
+.search{
+    margin-left: 8px;
+    margin-top: -12px;
+}
+button{
+    padding: 16px 16px;
+    width: 100%;
+    box-sizing: border-box;
+    border: 2px solid black;
+    background: black;
+    color: white;
+    font-size: 19px;
+    font-weight: lighter;
+    border-radius: 8px;
+}
+
+.signs{
+    padding-top: 0px;
+    font-size: 14.4px;
+    font-weight: 100;
+    margin-left: 10px;
+    color: rgb(48, 48, 48);
+}
+.signs a{
+    color: rgb(48, 48, 48);
+}
+.listofpicture{
+    display: flex;
+    
+}
+.feed img{
+    width: 98%;
+    margin-left: 0;
+}
+.listofpicture h2{
+    margin-top: 0;
+    font-size: 170%;
+    line-height: 36px;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+.listofpicture a{
+    margin-top: 0;
+    color: rgb(48, 48, 48);
+    font-size: 103%;
+    
+}
+.restaurant img{
+    width: 96%;
+    margin-left:3% ;
+    margin-right: 4%;
+}
+.withuber img{
+    width: 95%;
+    margin-left: 4%;
+}
+.restaurant h2,.restaurant a{
+    margin-left: 3%;
+}
+.withuber h2,.withuber a{
+    margin-left: 4%;
+}
+.banner{
+    margin-top: 4%;
+}
+.cities{
+
+    padding: 2%;
+
+}
+.cities img{
+    width: 100%;
+    margin-bottom:10% ;
+}
+.me h3{
+    font-size: 220%;
+    margin-top: 5%;
+    
+}
+.me{
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+.me a{
+    margin-top: 9%;
+    color: black;
+    margin-right: 2%;
+}
+.near img{
+    margin-bottom: 0px;
+    width: 100%;
+    margin-left: -2px;
+}
+#list{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    margin-left: 3%;
+    line-height: 5vh;
+    
+    
+}
+#list div{
+    font-size: 18px;
+    font-weight: 100;
+    color: rgb(59, 54, 54);
+    font-family: sans-serif;
+}
+.country{
+    display: flex;
+    justify-content: space-between;
+}
+.country h3{
+    font-size: 220%;
+    margin-top: 5%;
+    margin-left: 2%;
+}
+.country a{
+    margin-top: 6%;
+    margin-right: 4%;
+    color: black;
+}
+
+.get ul {
+    display:flex ;
+    
+}
+.google{
+    width: 25%;
+    margin-left: 1%;
+}
+.get li {
+    list-style-type: none;
+    
+}
+.eats{
+    display:flex ;
+    justify-content: space-between;
+    max-width: 100%;
+    margin: 0 auto;
+    
+    padding: 10%;
+}
+.icon{
+    display: flex;
+    line-height: 30;
+}
+.third img{
+    width: 2%;
+    margin-top: 2%;
+}
+.eats ul{
+    width: 150%;
+    line-height: 2.5;
+}
+.eats li a{
+    color: rgb(10, 10, 10);
+    text-decoration: none;
+    font-size: 105%;
+    font-family: sans-serif;
+    font-weight: normal;
+    
+    
+}
+.eats li{
+    list-style-type: none;
+    
+}
+.third ul{
+    margin-left: 9%;
+}
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:620px){
+    .Main h1{
+        font-size: 40px;
+        margin-top: 0%;
+        text-align: justify;
+    }
+    .linear{display: block;
+        margin: 0 auto;
+        align-items: center;
+        
+        
+    }
+
+    .headimage img{
+        max-width: 100%;
+        height: 70vh;
+    }
+    .location{
+        
+        padding: 20px;
+    }
+    .loca::placeholder{
+        text-align: center;
+    }
+    .location input{
+        width: 100%;
+    }
+    .delivery input{
+        width: 90%;
+        margin-left: 6%;
+    }
+    .search{
+        margin-top: 2%;
+        width: 92%;
+        margin-left: 5%;
+    }
+    .listofpicture{
+        display: block;
+    }
+    .feed img{
+        width: 100%;
+    }
+    .restaurant img{
+        width: 100%;
+        margin: 0 auto;
+    }
+    .withuber img{
+        width: 100%;
+        margin: 0 auto;
+    }
+    .me h3{
+        font-size: 160%;
+        margin-bottom: -1%;
+    }
+    .me{
+        margin-top: 7%;
+    }
+    .me a{
+        font-size: 50%;
+    }
+    #list{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+    .near img{
+        height: 20vh;
+    }
+    .country h3{
+        font-size:160% ;
+    }
+    .country a{
+        
+    }
+}
+@media screen and (max-width:960px) {
+    
+    
+}
+@media screen and (max-width:1200px) {
+    
+}

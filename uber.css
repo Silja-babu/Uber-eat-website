@@ -304,3 +304,8 @@ footer a:hover{
     position: static;
     margin-top: 100%;
 }
+#nears{
+    -webkit-column-count: 2;
+    -webkit-column-gap: 2px;  
+   
+}
